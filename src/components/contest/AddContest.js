@@ -19,7 +19,7 @@ export default class AddContest extends Component {
     this.setState({
       capacity: event.target.value,
     });
-  };
+  };i
 
   handleRegistrationAllowedChange = (event) => {
     this.setState({

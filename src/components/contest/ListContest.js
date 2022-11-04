@@ -70,6 +70,7 @@ export default function ListContest() {
     setEdit(false);
   }
 
+ 
   if (loaded)
     return (
       <div>
@@ -105,6 +106,9 @@ export default function ListContest() {
 
                       <button onClick={() => handleContestEdit(row)}>
                         Edit
+                      </button>
+                      <button onClick={() => handleContestEdit(row)}>
+                        Get teans
                       </button>
                     </div>
                   </TableCell>

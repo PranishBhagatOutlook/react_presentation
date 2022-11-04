@@ -16,6 +16,8 @@ class ContestService {
   editContest(contest) {
     return axios.put(`${CONTEST_URL}editContest`, contest);
   }
+
+  
 }
 
 export default new ContestService();
